@@ -64,7 +64,7 @@ function seeHint() {
 
   if(currentQuestion.responses.option1.answer == "correct") {
     hint = currentQuestion.responses.option1.hint
-  } else if(currentQuestion.responses.option1.answer == "correct") {
+  } else if(currentQuestion.responses.option2.answer == "correct") {
     hint = currentQuestion.responses.option2.hint
   } else {
     hint = currentQuestion.responses.option3.hint
